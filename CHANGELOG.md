@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+- **ADDED** `pymsis.set_space_weather_path()` to point pymsis at a custom space weather
+  file instead of the one bundled in the install location. The same
+  path can be set at startup with the `PYMSIS_SPACE_WEATHER_PATH` environment
+  variable.
+
 ## [v0.12.0] 2025-11-26
 
 - **MAINTENANCE** Publish Python 3.14 wheels.
